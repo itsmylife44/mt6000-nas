@@ -6,17 +6,17 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/xspam/mt6000-nas/internal/auth"
-	"github.com/xspam/mt6000-nas/internal/backup"
-	"github.com/xspam/mt6000-nas/internal/config"
-	"github.com/xspam/mt6000-nas/internal/files"
-	"github.com/xspam/mt6000-nas/internal/logs"
-	"github.com/xspam/mt6000-nas/internal/media"
-	"github.com/xspam/mt6000-nas/internal/middleware"
-	"github.com/xspam/mt6000-nas/internal/samba"
-	"github.com/xspam/mt6000-nas/internal/shares"
-	"github.com/xspam/mt6000-nas/internal/system"
-	"github.com/xspam/mt6000-nas/web"
+	"github.com/itsmylife44/mt6000-nas/internal/auth"
+	"github.com/itsmylife44/mt6000-nas/internal/backup"
+	"github.com/itsmylife44/mt6000-nas/internal/config"
+	"github.com/itsmylife44/mt6000-nas/internal/files"
+	"github.com/itsmylife44/mt6000-nas/internal/logs"
+	"github.com/itsmylife44/mt6000-nas/internal/media"
+	"github.com/itsmylife44/mt6000-nas/internal/middleware"
+	"github.com/itsmylife44/mt6000-nas/internal/samba"
+	"github.com/itsmylife44/mt6000-nas/internal/shares"
+	"github.com/itsmylife44/mt6000-nas/internal/system"
+	"github.com/itsmylife44/mt6000-nas/web"
 )
 
 func NewRouter(cfg *config.Config) http.Handler {

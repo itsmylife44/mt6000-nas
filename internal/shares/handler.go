@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/xspam/mt6000-nas/internal/auth"
-	"github.com/xspam/mt6000-nas/internal/config"
+	"github.com/itsmylife44/mt6000-nas/internal/auth"
+	"github.com/itsmylife44/mt6000-nas/internal/config"
 )
 
 type ShareLink struct {

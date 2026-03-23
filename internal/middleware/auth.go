@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/xspam/mt6000-nas/internal/auth"
+	"github.com/itsmylife44/mt6000-nas/internal/auth"
 )
 
 type SessionValidator interface {

@@ -1,4 +1,4 @@
-module github.com/xspam/mt6000-nas
+module github.com/itsmylife44/mt6000-nas
 
 go 1.25.0
 

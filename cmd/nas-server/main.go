@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/xspam/mt6000-nas/internal/api"
-	"github.com/xspam/mt6000-nas/internal/config"
+	"github.com/itsmylife44/mt6000-nas/internal/api"
+	"github.com/itsmylife44/mt6000-nas/internal/config"
 )
 
 func main() {
