@@ -1,0 +1,9 @@
+build/
+*.exe
+*.ipk
+config.dev.json
+config.json
+*.log
+.DS_Store
+Thumbs.db
+_ipk-staging/
