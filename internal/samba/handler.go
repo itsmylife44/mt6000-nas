@@ -27,9 +27,9 @@ type ServiceStatus struct {
 type ShareRequest struct {
 	Name       string `json:"name"`
 	Path       string `json:"path"`
-	ReadOnly   bool   `json:"readOnly"`
-	GuestOk    bool   `json:"guestOk"`
-	ValidUsers string `json:"validUsers"`
+	ReadOnly   bool   `json:"read_only"`
+	GuestOk    bool   `json:"guest_ok"`
+	ValidUsers string `json:"valid_users"`
 }
 
 type UserRequest struct {
