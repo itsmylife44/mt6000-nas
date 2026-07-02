@@ -14,12 +14,12 @@ type GlobalConfig struct {
 }
 
 type Share struct {
-	Name       string
-	Path       string
-	ReadOnly   bool
-	GuestOk    bool
-	ValidUsers string
-	Extra      map[string]string
+	Name       string            `json:"name"`
+	Path       string            `json:"path"`
+	ReadOnly   bool              `json:"read_only"`
+	GuestOk    bool              `json:"guest_ok"`
+	ValidUsers string            `json:"valid_users"`
+	Extra      map[string]string `json:"extra"`
 }
 
 type SmbConf struct {
